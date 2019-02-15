@@ -1,0 +1,115 @@
+/*======================================
+ =Responsive Mobile-first Media Queries=
+========================================*/
+
+/*-------------max991px---------------*/
+
+@media screen and (min-width:0px) and (max-width:991px){
+	
+	.navbar-nav {
+		border-top:1px solid #666666;
+		background-color:#000 !important;
+	}
+	
+	.service-separate{
+		display:none;
+	}
+	
+	.service-bordered{
+		
+		border:none;
+	}
+}
+
+/*----------- max991px -----------*/
+@media screen and (max-width:991px){
+		
+	
+.about-content h5{
+	
+	font-size:15px;
+}
+
+.about-content p{
+	
+	font-size:13px;
+}
+
+.element-item{
+	
+	width:50%;
+}
+
+.about-content h2{
+	
+	font-size:23px;
+}
+
+}/*-----------End max991px-----------*/
+
+
+/*-------------max768px---------------*/
+@media screen and (max-width:768px){
+	
+.element-item{
+	
+	width:50%;
+}
+
+}/*------------End max768px-----------*/
+
+
+/*-------------max767px---------------*/
+@media screen and (max-width:767px){
+	
+.banner-content h1{
+	
+		font-size:40px;
+	}
+	
+.banner-content h5{
+	
+	font-size:35px;
+}
+
+}/*------------End max767px-----------*/
+
+
+/*-------------max575px---------------*/
+@media screen and (max-width:575px){
+	
+.element-item{
+	
+	width:100%;
+}
+
+}/*------------End max575px-----------*/
+
+
+/*-------------max320px---------------*/
+@media screen and (max-width:320px){
+	
+.banner-content h1{
+	
+		font-size:25px;
+	}
+	
+.banner-content h5{
+	
+	font-size:22px;
+}
+
+.about-content h2{
+	
+	font-size:20px;
+}
+
+}/*-----------End max320px------------*/
+
+
+
+/*======================================
+			The End
+========================================			
+*/
+
